@@ -12,3 +12,7 @@ jobs:
     steps:
       - name: Print a message
         run: echo "🎉 GitHub Actions is working!"
+
+        - name: Show runner details
+  run: uname -a
+
