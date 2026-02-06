@@ -1,0 +1,14 @@
+name: Day 1 - First Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print a message
+        run: echo "🎉 GitHub Actions is working!"
